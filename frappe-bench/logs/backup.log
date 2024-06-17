@@ -1,0 +1,42 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240609_180002-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-09 18:00:03.342609
+Config  : ./mkulima_mdogo.com/private/backups/20240609_180002-mkulima_mdogo_com-site_config_backup.json 90.0B
+Database: ./mkulima_mdogo.com/private/backups/20240609_180002-mkulima_mdogo_com-database.sql.gz         222.0KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240610_120002-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-10 12:00:03.953823
+Config  : ./mkulima_mdogo.com/private/backups/20240610_120002-mkulima_mdogo_com-site_config_backup.json 90.0B
+Database: ./mkulima_mdogo.com/private/backups/20240610_120002-mkulima_mdogo_com-database.sql.gz         228.3KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240612_120002-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-12 12:00:05.805771
+Config  : ./mkulima_mdogo.com/private/backups/20240612_120002-mkulima_mdogo_com-site_config_backup.json 157.0B
+Database: ./mkulima_mdogo.com/private/backups/20240612_120002-mkulima_mdogo_com-database.sql.gz         822.5KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240613_120002-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-13 12:00:05.705783
+Config  : ./mkulima_mdogo.com/private/backups/20240613_120002-mkulima_mdogo_com-site_config_backup.json 157.0B
+Database: ./mkulima_mdogo.com/private/backups/20240613_120002-mkulima_mdogo_com-database.sql.gz         828.3KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240613_180003-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-13 18:00:06.823685
+Config  : ./mkulima_mdogo.com/private/backups/20240613_180003-mkulima_mdogo_com-site_config_backup.json 157.0B
+Database: ./mkulima_mdogo.com/private/backups/20240613_180003-mkulima_mdogo_com-database.sql.gz         828.3KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240615_120003-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-15 12:00:06.437093
+Config  : ./mkulima_mdogo.com/private/backups/20240615_120003-mkulima_mdogo_com-site_config_backup.json 157.0B
+Database: ./mkulima_mdogo.com/private/backups/20240615_120003-mkulima_mdogo_com-database.sql.gz         828.3KiB
+Backup for Site mkulima_mdogo.com has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=mkulima_mdogo --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false mkulima_mdogo | /usr/bin/gzip >> ./mkulima_mdogo.com/private/backups/20240615_180002-mkulima_mdogo_com-database.sql.gz
+
+Backup Summary for mkulima_mdogo.com at 2024-06-15 18:00:04.536398
+Config  : ./mkulima_mdogo.com/private/backups/20240615_180002-mkulima_mdogo_com-site_config_backup.json 157.0B
+Database: ./mkulima_mdogo.com/private/backups/20240615_180002-mkulima_mdogo_com-database.sql.gz         828.3KiB
+Backup for Site mkulima_mdogo.com has been successfully completed

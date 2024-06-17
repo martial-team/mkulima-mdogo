@@ -1,0 +1,143 @@
+2024-06-09 12:56:38,702 DEBUG cd frappe-bench && python3 -m venv env
+2024-06-09 12:56:43,630 DEBUG cd frappe-bench && /home/ibrah/mkulima-mdogo/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2024-06-09 12:56:45,740 DEBUG cd frappe-bench && /home/ibrah/mkulima-mdogo/frappe-bench/env/bin/python -m pip install --quiet wheel
+2024-06-09 12:56:51,823 LOG Getting frappe
+2024-06-09 12:56:51,823 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-06-09 12:57:46,642 LOG Installing frappe
+2024-06-09 12:57:46,642 DEBUG cd /home/ibrah/mkulima-mdogo/frappe-bench && /home/ibrah/mkulima-mdogo/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ibrah/mkulima-mdogo/frappe-bench/apps/frappe 
+2024-06-09 12:59:42,237 DEBUG cd /home/ibrah/mkulima-mdogo/frappe-bench/apps/frappe && yarn install --check-files
+2024-06-09 12:59:56,878 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-06-09 12:59:56,879 DEBUG cd frappe-bench && bench build
+2024-06-09 12:59:57,090 INFO /usr/local/bin/bench build
+2024-06-09 13:00:31,117 LOG setting up backups
+2024-06-09 13:00:31,140 LOG backups were set up
+2024-06-09 13:00:31,141 INFO Bench frappe-bench initialized
+2024-06-09 13:02:13,794 INFO /usr/local/bin/bench new-site dcode.com --db-name mkulima_mdogo --mariadb-root-username ibrah --mariadb-root-password mdccclxiv
+2024-06-09 13:03:05,618 INFO /usr/local/bin/bench new-site mkulima_mdogo.com --db-name mkulima_mdogo --mariadb-root-username ibrah --mariadb-root-password mdccclxiv
+2024-06-09 13:05:37,981 INFO /usr/local/bin/bench --site mkulima_mdogo.com add-to-hosts
+2024-06-09 13:06:00,103 INFO /usr/local/bin/bench start
+2024-06-09 13:06:00,829 INFO /usr/local/bin/bench serve --port 8000
+2024-06-09 13:06:00,878 INFO /usr/local/bin/bench worker
+2024-06-09 13:06:00,909 INFO /usr/local/bin/bench watch
+2024-06-09 13:06:00,950 INFO /usr/local/bin/bench schedule
+2024-06-09 13:07:41,348 INFO /usr/local/bin/bench start
+2024-06-09 13:07:41,967 INFO /usr/local/bin/bench serve --port 8000
+2024-06-09 13:07:42,072 INFO /usr/local/bin/bench schedule
+2024-06-09 13:07:42,096 INFO /usr/local/bin/bench watch
+2024-06-09 13:07:42,140 INFO /usr/local/bin/bench worker
+2024-06-09 13:22:17,483 INFO /usr/local/bin/bench new-site mkulima_mdogo.com --db-name mkulima_mdogo --mariadb-root-username ibrah --mariadb-root-password mdccclxiv
+2024-06-09 13:24:35,846 INFO /usr/local/bin/bench start
+2024-06-09 13:24:36,543 INFO /usr/local/bin/bench serve --port 8000
+2024-06-09 13:24:36,569 INFO /usr/local/bin/bench worker
+2024-06-09 13:24:36,607 INFO /usr/local/bin/bench schedule
+2024-06-09 13:24:36,673 INFO /usr/local/bin/bench watch
+2024-06-09 13:30:32,450 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-09 13:30:38,454 LOG Getting erpnext
+2024-06-09 13:30:38,455 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-09 13:31:12,033 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-06-09 13:31:12,033 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2024-06-09 13:31:30,847 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-09 13:31:31,671 LOG Getting erpnext
+2024-06-09 13:31:31,671 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-09 14:23:53,088 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-09 14:24:05,070 INFO App moved from apps/erpnext to archived/apps/erpnext-2024-06-09
+2024-06-09 14:24:05,081 LOG Getting erpnext
+2024-06-09 14:24:05,081 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-09 14:26:21,773 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-06-09 14:26:21,774 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2024-06-09 17:07:58,235 INFO /usr/local/bin/bench start
+2024-06-09 17:07:58,737 INFO /usr/local/bin/bench schedule
+2024-06-09 17:07:58,739 INFO /usr/local/bin/bench serve --port 8000
+2024-06-09 17:07:58,753 INFO /usr/local/bin/bench worker
+2024-06-09 17:07:58,803 INFO /usr/local/bin/bench watch
+2024-06-09 18:00:01,783 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-10 08:03:50,877 INFO /usr/local/bin/bench start
+2024-06-10 08:03:51,361 INFO /usr/local/bin/bench serve --port 8000
+2024-06-10 08:03:51,369 INFO /usr/local/bin/bench worker
+2024-06-10 08:03:51,381 INFO /usr/local/bin/bench schedule
+2024-06-10 08:03:51,444 INFO /usr/local/bin/bench watch
+2024-06-10 08:48:56,531 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-10 08:48:58,743 LOG Getting erpnext
+2024-06-10 08:48:58,743 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-10 08:50:25,584 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-06-10 08:50:25,584 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2024-06-10 08:51:41,075 INFO /usr/local/bin/bench get-app https://github.com/frappe/erpnext --branch version-15
+2024-06-10 08:51:41,086 LOG Getting erpnext
+2024-06-10 08:51:41,087 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext --branch version-15 --depth 1 --origin upstream
+2024-06-10 08:52:34,760 WARNING cd ./apps && git clone https://github.com/frappe/erpnext --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-06-10 08:52:34,761 WARNING /usr/local/bin/bench get-app https://github.com/frappe/erpnext --branch version-15 executed with exit code 1
+2024-06-10 08:53:50,472 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-10 08:53:52,502 LOG Getting erpnext
+2024-06-10 08:53:52,502 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-10 08:54:58,965 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-06-10 08:54:58,966 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2024-06-10 08:56:17,888 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-06-10 08:56:18,671 LOG Getting erpnext
+2024-06-10 08:56:18,671 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-06-10 08:56:47,152 LOG Installing erpnext
+2024-06-10 08:56:47,152 DEBUG cd /home/ibrah/mkulima-mdogo/frappe-bench && /home/ibrah/mkulima-mdogo/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/ibrah/mkulima-mdogo/frappe-bench/apps/erpnext 
+2024-06-10 08:57:00,359 DEBUG cd /home/ibrah/mkulima-mdogo/frappe-bench/apps/erpnext && yarn install --check-files
+2024-06-10 08:57:01,605 DEBUG bench build --app erpnext
+2024-06-10 08:57:02,064 INFO /usr/local/bin/bench build --app erpnext
+2024-06-10 08:57:11,257 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-06-10 08:58:00,397 INFO /usr/local/bin/bench start
+2024-06-10 08:58:00,836 INFO /usr/local/bin/bench schedule
+2024-06-10 08:58:00,863 INFO /usr/local/bin/bench serve --port 8000
+2024-06-10 08:58:00,883 INFO /usr/local/bin/bench worker
+2024-06-10 08:58:00,962 INFO /usr/local/bin/bench watch
+2024-06-10 11:42:53,646 INFO /usr/local/bin/bench start
+2024-06-10 11:42:54,276 INFO /usr/local/bin/bench serve --port 8000
+2024-06-10 11:42:54,285 INFO /usr/local/bin/bench worker
+2024-06-10 11:42:54,306 INFO /usr/local/bin/bench watch
+2024-06-10 11:42:54,438 INFO /usr/local/bin/bench schedule
+2024-06-10 11:59:42,642 INFO /usr/local/bin/bench --site dcode.com install-app erpnext
+2024-06-10 12:00:01,677 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-10 12:00:02,914 INFO /usr/local/bin/bench --site mkulima_mdogo.com install-app erpnext
+2024-06-10 12:01:25,119 INFO /usr/local/bin/bench --site mkulima_mdogo.com backup
+2024-06-10 12:01:42,026 INFO /usr/local/bin/bench --site mkulima_mdogo.com reinstall
+2024-06-10 12:05:00,648 INFO /usr/local/bin/bench --site mkulima_mdogo.com install-app erpnext
+2024-06-10 12:07:48,840 INFO /usr/local/bin/bench start
+2024-06-10 12:07:49,472 INFO /usr/local/bin/bench schedule
+2024-06-10 12:07:49,484 INFO /usr/local/bin/bench serve --port 8000
+2024-06-10 12:07:49,491 INFO /usr/local/bin/bench watch
+2024-06-10 12:07:49,688 INFO /usr/local/bin/bench worker
+2024-06-10 12:50:37,192 INFO /usr/local/bin/bench start
+2024-06-10 12:50:37,959 INFO /usr/local/bin/bench schedule
+2024-06-10 12:50:37,959 INFO /usr/local/bin/bench serve --port 8000
+2024-06-10 12:50:38,009 INFO /usr/local/bin/bench worker
+2024-06-10 12:50:38,088 INFO /usr/local/bin/bench watch
+2024-06-11 07:38:05,172 INFO /usr/local/bin/bench start
+2024-06-11 07:38:05,685 INFO /usr/local/bin/bench worker
+2024-06-11 07:38:05,692 INFO /usr/local/bin/bench schedule
+2024-06-11 07:38:05,700 INFO /usr/local/bin/bench serve --port 8000
+2024-06-11 07:38:05,760 INFO /usr/local/bin/bench watch
+2024-06-11 18:48:19,662 INFO /usr/local/bin/bench start
+2024-06-11 18:48:20,194 INFO /usr/local/bin/bench schedule
+2024-06-11 18:48:20,239 INFO /usr/local/bin/bench worker
+2024-06-11 18:48:20,271 INFO /usr/local/bin/bench serve --port 8000
+2024-06-11 18:48:20,300 INFO /usr/local/bin/bench watch
+2024-06-12 08:13:42,479 INFO /usr/local/bin/bench start
+2024-06-12 08:13:42,991 INFO /usr/local/bin/bench serve --port 8000
+2024-06-12 08:13:42,994 INFO /usr/local/bin/bench worker
+2024-06-12 08:13:43,017 INFO /usr/local/bin/bench watch
+2024-06-12 08:13:43,081 INFO /usr/local/bin/bench schedule
+2024-06-12 12:00:01,690 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-12 15:40:34,925 INFO /usr/local/bin/bench start
+2024-06-12 15:40:35,586 INFO /usr/local/bin/bench watch
+2024-06-12 15:40:35,622 INFO /usr/local/bin/bench worker
+2024-06-12 15:40:35,628 INFO /usr/local/bin/bench serve --port 8000
+2024-06-12 15:40:35,764 INFO /usr/local/bin/bench schedule
+2024-06-13 12:00:01,548 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-13 18:00:01,761 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-15 12:00:02,286 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-15 18:00:01,573 INFO /usr/local/bin/bench --verbose --site all backup
+2024-06-16 15:34:05,984 INFO /usr/local/bin/bench start
+2024-06-16 15:34:06,703 INFO /usr/local/bin/bench serve --port 8000
+2024-06-16 15:34:06,728 INFO /usr/local/bin/bench watch
+2024-06-16 15:34:06,755 INFO /usr/local/bin/bench worker
+2024-06-16 15:34:06,797 INFO /usr/local/bin/bench schedule
+2024-06-17 09:18:51,423 INFO /usr/local/bin/bench start
+2024-06-17 09:18:52,116 INFO /usr/local/bin/bench worker
+2024-06-17 09:18:52,125 INFO /usr/local/bin/bench schedule
+2024-06-17 09:18:52,147 INFO /usr/local/bin/bench watch
+2024-06-17 09:18:52,285 INFO /usr/local/bin/bench serve --port 8000
